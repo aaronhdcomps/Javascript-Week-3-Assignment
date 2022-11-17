@@ -7,3 +7,11 @@
 // ###
 // ##
 // #
+for (let index = 1; index <= 5; index++) {
+    console.log(index);
+    
+}
+for (let index = 4; index >= 1; index--) {
+    console.log(index);
+    
+}
