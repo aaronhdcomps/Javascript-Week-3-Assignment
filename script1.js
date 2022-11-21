@@ -7,11 +7,12 @@
 // ###
 // ##
 // #
-for (let index = 1; index <= 5; index++) {
-    console.log(index);
-    
+let myString = "#";
+for (let i = 1; i <= 3; i++) {
+    console.log(myString);
+    myString += "#";    
 }
-for (let index = 4; index >= 1; index--) {
-    console.log(index);
-    
+for (let i = 4; i > 0; i--) {
+    console.log(myString);
+    myString = myString.slice(0, -1);    
 }
